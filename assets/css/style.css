@@ -1444,6 +1444,10 @@ section {
   padding: 60px 0 30px 0;
 }
 
+.footer-info{
+  width: fit-content;
+}
+
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
 }
@@ -1467,6 +1471,11 @@ section {
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
   color: #fff;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
 }
 
 #footer .footer-top .social-links a {
@@ -1588,6 +1597,22 @@ section {
 }
 
 .footer-info img{
-  height: 180px;
+  height: 150px;
   width: auto;
+}
+
+.my-contact{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px){
+  .my-contact{
+    flex-direction: row-reverse;
+  }
+  #footer .footer-top .footer-links {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
 }
