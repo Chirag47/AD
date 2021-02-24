@@ -710,6 +710,16 @@ section {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
 }
+.services .icon-box:hover h4, .services .icon-box:hover .icon{
+  display: none;
+}
+.services .icon-box:hover .service-deets{
+  display: block;
+}
+.service-deets{
+  text-align: left;
+  display: none;
+}
 
 /*--------------------------------------------------------------
 # Cta
