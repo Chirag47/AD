@@ -1455,6 +1455,7 @@ section {
 }
 
 .footer-info{
+  width: moz-fit-content;
   width: fit-content;
 }
 
