@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'boxicons';
   color: #444444;
 }
 
@@ -1457,15 +1457,16 @@ section {
 .footer-info{
   width: -moz-fit-content;
   width: fit-content;
+  text-align: center;
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 #footer .footer-top .footer-info h3 {
   font-size: 28px;
-  margin: 0 0 20px 0;
+  margin: 0 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
@@ -1521,7 +1522,6 @@ section {
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
 }
-
 #footer .footer-top .footer-links ul {
   list-style: none;
   padding: 0;
@@ -1610,6 +1610,7 @@ section {
 .footer-info img{
   height: 150px;
   width: auto;
+  object-fit: contain;
 }
 
 .my-contact{
@@ -1626,4 +1627,9 @@ section {
     margin-bottom: 30px;
     margin-top: 30px;
   }
+}
+
+.footer-info h3{
+  text-transform: none !important;
+  font-size: 24px !important;
 }
